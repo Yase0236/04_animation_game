@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Jura&family=Monoton&family=Orbitron:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Sweet Frooth</title>
+</head>
+
+<body>
+    <header>
+
+        <header class="color_1">
+            <div class="logo">
+                <a href="/">Sweet Frooth</a>
+            </div>
+        </header>
+        
+        <nav>
+            <ul class="links">
+                <li><a href="index.html#first_section">Dokumentation</a></li>
+                <li><a href="index.html#second_section">Ide</a></li>
+                <li><a href="index.html#third_section">Assetliste</a></li>
+                <li><a href="spillet.html">Spillet </a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="first_section">
+            <div class="section_wrapper">
+                <div class="text">
+                    <h1>Design dokumentation</h1>
+
+                    <h2>Scene med figur design</h2>
+
+                    <p>Spillet foregår i en arkadehal, men i stedet for at der er mange andre distraherende arkadespil i baggrunden, vil jeg gerne have en simpel baggrund hvor der kun er skyer med kawaii ansigter. Skyerne i baggrunden kommer til at være mindre livlig så man er sikker på de er i baggrunden. Kameravinkel er jeg usikker på hvad der menes. Jeg vil gerne have man skal se arkadespillet forfra. Figur elementer med karaktertræk er skyerne i baggrunden som har glade ansigter. Grønsagerne har sure ansigter. Munden vender nedad og de har sure øjenbryn. Frugten har glade ansigter. Hovedkarakteren, som siger hej ved startskærmen, hedder ”Froot”. </p>
+
+
+                    <h2>Papir prototype</h2>
+
+                    <p>Sådan her forestiller jeg mit endelige spil skulle se ud. Havde jeg mulighed for at lave en bedre animation, ville jeg gerne have at tidsbaren enten var formet som en sommerfugl eller med en lille kanin der gik fra toppen af tidsbaren til bunden når tiden var løbet. Dog har jeg valgt at gå væk fra dette, da jeg ikke vidste hvordan man animerede dette.</p>
+                    <img src="../spil/assets/skitser/papir_prototype.jpg" alt="Papir prototypen">
+
+                    <h2>UI elementer</h2>
+
+                    <p>Play knappen, gameover og level complete knapperne bliver introduceret i assetlisten. Jeg har valgt at have et point system i form at tal i bunden af skærmen, en tidsbar i form af et cylinder, liv formet som hjerter og figurerne, som skal forstille grønsager og frugter.</p>
+
+                    <h2>Aktivitetsdiagram</h2>
+
+                    <p>Her kan man se rækkefølgen af hvad der kommer til at ske igennem hele spillet. Her står der en lille beskrivelse af hvad der sker når man trykket på frugterne, som er gode elementer og grønsagerne som er onde elementer.</p>
+                    <img src="../spil/assets/skitser/aktivitetsdiagram.png" alt="Aktivitetsdiagram">
+
+                    <h2>State Machine Diagram</h2>
+
+                    <p>I state machine diagrammet kan man se en mere detaljeret beskrivelse af hvad der kommer til at ske i spillet. Her kan man se hvilke animationer man kommer til at benytte sig af og hvad der sker med de forskellige spille elementer.</p>
+                    <img src="../spil/assets/skitser/StateMachine.png" alt="State Machine Diagram">
+
+
+                    <h2>Skitser</h2>
+
+                    <p>De forskellige skitser jeg har vist her, viser min process fra da jeg sad med ideen til de forskellige skitser af hvordan jeg gerne ville have mine figurer skulle se ud.</p>
+                    <img src="../spil/assets/skitser/image0.jpeg" alt="Figur1">
+                    <img src="../spil/assets/skitser/image1.jpeg" alt="Figur2">
+                    <img src="../spil/assets/skitser/image2.jpeg" alt="Figur3">
+                    <img src="../spil/assets/skitser/jfj.jpg" alt="Figur4">
+                    <img src="../spil/assets/skitser/kg.jpg" alt="Figur5">
+                    <img src="../spil/assets/skitser/kyt.jpg" alt="Figur6">
+                    <img src="../spil/assets/skitser/ng.jpeg" alt="Figur7">
+                    <img src="../spil/assets/skitser/Scannededokumenter.pdf" alt="Figur8">
+                    <img src="../spil/assets/skitser/skitse.jpg" alt="Figur9">
+                    <img src="../spil/assets/skitser/vghtcmhch.jpg" alt="Figur10">
+
+
+
+                </div>    
+            </div>
+                      
+        </section>
+
+        <section id="second_section">
+            <h1>Ide</h1>
+
+            <div class="section_wrapper">
+                
+                <h2>Spil koncept</h2>
+
+                <p>Det minder om ”whack-a-mole” spillet, hvor man kan evt. kan bruge kawaii stilen og tegne en masse figurer formet som frugt, som popper ud og forsvinder igen, ligesom det andet spil. Der kommer til at være 9 huller, hvor der hurtigt kommer enten grønsager eller frugter op af hullet. Her skal man trykke på alle frugterne (god ting), og ikke grønsagerne (dårlige ting). Trykker man på grønsagerne, mister man et liv, og dem har man tre af. Klikker man enten på den gode ting eller den dårlige ting, kommer de til at fade ud og forsvinde. Klikker man på frugterne, vil der komme en lyd op eller en lyd fra hovedfiguren, hvor den jubler. Klikker man på grønsagerne, kan figuren sige en ”ewww” lyd. Man har 30 sekunder til at klikke på mindst 20 frugter for at man kommer videre til næste level.</p>
+
+                <h2>Stil inspiration</h2>
+
+                <p>Jeg har fået inspiration fra Kawaii stilen. Stilen benytter sig af symmetri. Proportionerne af figurerne er meget ens og benytter sig af symmetri på det referencebillede jeg har lagt ind. Jeg vil gerne benytte mig af asymmetri, da jeg mener at det er bedre og mere livligt, hvis frugterne og grønsagerne er lidt skæve. Ikke alle frugter og grønsager er symmetriske i det virkelige liv, så derfor vil jeg gerne have at alle figurerer har forskellige størrelser. Det kan være der er nogen der er større end andre. Der er lidt dimensioner i få figurere og en slags glans på dem. </p>
+                <img src="../spil/assets/svg/unnamed.jpg" alt="Originalt whack-a-mole">
+
+            </div>
+                    
+        </section>
+
+        <section id="third_section">
+            <h1>Assetliste</h1>
+
+            <div class="section_wrapper">
+                <h2>Start skærm</h2>
+
+                <p>Her er et billede af start skærmen uden UI elementer. Her har jeg undladt at putte UI elementerne ind på startskærmen. Knapperne bliver introduceret i UI elementer.</p>
+                <img src="../spil/assets/svg/startskaerm.svg" alt="Start skærmen">
+
+                <h2>Baggrund</h2>
+
+                <p>Det her har jeg valgt at have i baggrunden. Her kan man se skyerne i baggrunden sammen med arkadespillet. Jeg har valgt at have det hele sammen.</p>
+                <img src="../spil/assets/svg/baggrund.svg" alt="Baggrunden">
+
+
+                <h2>Spil elementer</h2>
+
+                <p>Her er alle figurerne, frugter og grønsager. Sammen med figurerne har jeg også lavet hjerter, som skal forestille livene i spillet. Hver gang man mister et liv, forsvinder et hjerte.</p>
+                <img src="../spil/assets/svg/spille_elementer.svg" alt="Spille elementer">
+
+                <h2>UI elementer</h2>
+
+                <p>Her har jeg sammensat alle ui elementerne. Her kan man se play knappen, tidsbaren og gameover knappen. Level complete knappen har jeg lavet på samme måde som gameover knappen via CSS som pulsere ud og ind. Point systemet jeg gerne vil have er tal i nederste højre hjørnet af spilleskærmen. Her har jeg benyttet mig af "Orbitron" fonten som jeg også har brugt til både gameover og level complete knapperne. Jeg har også indsat tidsbaren her. Tidsbaren består af en firkantet aflang cylinder, hvor en lille farve går fra toppen af cylinderen til bunden af cylinderen når der er gået 30 sekunder.</p>
+                <p>Her under kan man se hvordan jeg havde forestillet mig at mine knapper skulle se ud men jeg havde valgt at benytte mig af CSS til at lave knapperne i stedet for da det var nemmere at putte ind. Formen og farve valgtet af knapperne var nogenlunde sådan jeg gerne ville have det skulle se ud.</p>
+                <img src="../spil/assets/svg/ui_elementer.svg" alt="UI elementer">
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>

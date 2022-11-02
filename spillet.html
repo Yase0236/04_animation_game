@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500&family=Jura&family=Monoton&family=Orbitron:wght@400;500&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" href="css/spil.css">
+
+    <title>Sweet frooth</title>
+</head>
+
+<body>
+    <header>
+
+        <header class="color_1">
+            <div class="logo">
+                <a href="/">Sweet frooth</a>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="links">
+                <li><a href="index.html#first_section">Dokumentation</a></li>
+                <li><a href="index.html#second_section">Ide</a></li>
+                <li><a href="index.html#third_section">Assetliste</a></li>
+                <li><a href="index.html#fourth_section">Spillet</a></li>
+           </ul>
+        </nav>
+    </header>
+
+    <div id= "screen">
+        
+
+
+        <div id="game">
+            <div id="game_background"></div>
+            
+            <div id="game_elements">    
+
+                <div id="good_container">
+                    <div id="good_sprite">
+                    </div>
+                </div>    
+
+                <div id="good_container2">
+                  <div id="good_sprite2"></div>
+                </div>     
+
+                <div id="good_container3">
+                  <div id="good_sprite3"></div>
+                </div>
+
+                <div id="good_container4">
+                  <div id="good_sprite4"></div>
+                </div>   
+
+                <div id="good_container5">
+                  <div id="good_sprite5"></div>
+                </div>         
+                
+                <div id="bad_container">
+                    <div id="bad_sprite"></div>
+                </div>    
+
+                <div id="bad_container2">
+                  <div id="bad_sprite2"></div>
+                </div>
+
+                <div id="bad_container3">
+                  <div id="bad_sprite3"></div>
+                </div>
+                
+                <div id="bad_container4">
+                  <div id="bad_sprite4"></div>
+                </div>
+
+                <div id="bad_container5">
+                <div id="bad_sprite5"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="game_ui">
+
+                <div id="score_board"></div>
+
+                <div id="energy_board">
+                    <div id="liv1"><img src="assets/svg/hjerteliv.svg" alt="liv"></div>
+                    <div id="liv2"><img src="assets/svg/hjerteliv.svg" alt="liv"></div>
+                    <div id="liv3"><img src="assets/svg/hjerteliv.svg" alt="liv"></div>
+                </div>
+
+                <div id="time_board">
+                    <div id="time_container">
+                        <div id="time_sprite"></div>
+                    </div>
+                </div>
+        </div>
+
+        <div id="start" class="start">
+            <div id="start_knap">
+                <img src="assets/svg/playknap.svg" alt="start_knap">
+            </div>
+        </div>
+
+        <div id="game_over" class ="">
+            <!-- <div id="game_over_txt"> GAME OVER!!!</div> -->
+            <div id="game_over_points"> You got ?? points</div>
+            <div id="restart1">Try again silly.</div>
+        </div>
+
+        <div id="level_complete" class="">
+            <!-- <div id="level_complete_txt"> YAAAY YOU WON!!!</div> -->
+            <div id="level_complete_points">You got ?? points</div>
+            <div id="restart2">I'm on the "next level"</div>
+        </div>
+        
+    </div>
+
+    <div id="sounds">
+        <!-- indsæt lydfiler her -->
+        <audio src="sounds/gameover.mp3" id="gameover"></audio>
+        <audio src="sounds/yay.mp3" id="good_elements"></audio>
+        <audio src="sounds/mehh.mp3" id="bad_elements"></audio>
+        <audio src="sounds/yayyouwon.mp3" id="level_complete"></audio>
+    </div>
+    <script src="javascript.js"></script>
+
+ </body>
+</html>
